@@ -1,6 +1,6 @@
-import { FC, FormEvent, useState } from 'react';
+import type { FC, FormEvent } from 'react';
+import { useState } from 'react';
 import Confetti from 'react-confetti';
-
 
 export const Contact: FC = () => {
   const [name, setName] = useState('');
