@@ -97,10 +97,10 @@ export const Experience: FC = () => {
       overview: "Currently at Firespring, I work with a team of developers to refine and add new features to one of Firespring's non-profit web applications.", 
       contributions: [
         "Leveraged and redesigned AWS Lambda functions to better inform the team about the status alerts on production and beta cloud resources.",
-        "Improved application performance and maintainability by implementing new features, refactoring and updating legacy code, and writing RSpec tests.",
-        "Developed an AI chatbot to assist users with common inquiries about St. Baldrick's Foundation event planning and fundraising activities using Claude API."
+        "Developed an AI-powered FAQ chatbot using Retrieval-Augmented Generation (RAG) with OpenAI and Qdrant to deliver accurate, context-aware answers from a curated knowledge base.",
+        "Improved application performance and maintainability by implementing new features, refactoring and updating legacy code, and writing RSpec tests."
       ],
-      techStack: ["Ruby on Rails", "Ruby","PHP", "AWS", "JavaScript", "HTML", "SASS", "Claude"]
+      techStack: ["Ruby on Rails", "Ruby","PHP", "AWS", "JavaScript", "HTML", "SASS", "OpenAI", "Qdrant"]
     },
     {
       title: "PrivyAI",
